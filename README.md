@@ -1,19 +1,16 @@
-# 🎈 Blank app template
+# 📞 Excel Splitter, Auto-Formatter & Phone Validator
 
-A simple Streamlit app template for you to modify!
+A Streamlit app that processes Excel files containing IDs and phone numbers.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 🚀 Features
+- Splits multiple phone numbers per row
+- Auto-formats PH mobile & landline numbers
+- Handles *0, *09, and *63 numbers automatically
+- Rejects invalid numbers
+- Outputs:
+  - ✅ Valid numbers (one row per ID)
+  - ❌ Invalid numbers list
+- Downloadable Excel outputs
 
-### How to run it on your own machine
+## ▶️ Run locally
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
